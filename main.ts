@@ -1,6 +1,6 @@
-import blessed, { createScreen } from "npm:blessed@0.1.81";
+import blessed from "npm:blessed@0.1.81";
 
-const screen = createScreen({
+const screen = blessed.screen({
   smartCSR: true,
 });
 
